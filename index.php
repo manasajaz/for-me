@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+
+
+
+    <title>Earth Lines Sphere &#8211; Drake</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <style>
+        img:is([sizes="auto" i], [sizes^="auto," i]) {
+            contain-intrinsic-size: 3000px 1500px
+        }
+    </style>
+    <link rel='dns-prefetch' href='//maxst.icons8.com' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+    <style id='wp-emoji-styles-inline-css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style id='safe-svg-svg-icon-style-inline-css'>
+        .safe-svg-cover {
+            text-align: center
+        }
+
+        .safe-svg-cover .safe-svg-inside {
+            display: inline-block;
+            max-width: 100%
+        }
+
+        .safe-svg-cover svg {
+            height: 100%;
+            max-height: 100%;
+            max-width: 100%;
+            width: 100%
+        }
+    </style>
+    <style id='classic-theme-styles-inline-css'>
+        /*! This file is auto-generated */
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css'>
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .is-layout-flex> :is(*, div) {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        .is-layout-grid> :is(*, div) {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :root :where(.wp-block-pullquote) {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='assets/css/styles.css?ver=6.0.4' media='all' />
+    <link rel='stylesheet' id='line-awesome-css' href='assets/css/line-awesome.min.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='assets/css/bootstrap.min.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='owl-carousel-css' href='assets/css/owl.carousel.min.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='owl-theme-css' href='assets/css/owl.theme.default.min.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='animate-css' href='assets/css/animate.min.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='smooth-scrollbar-css' href='assets/css/smooth-scrollbar.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='lightbox-css' href='assets/css/lightbox.min.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='drake-style-css' href='assets/css/style.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='unit-test-css' href='assets/css/unit-test.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='drake-responsive-css' href='assets/css/responsive.css?ver=6.7.2' media='all' />
+    <link rel='stylesheet' id='drake-fonts-css' href='//fonts.googleapis.com/css?family=Inter%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext&#038;ver=1.0.0' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='assets/css/elementor-icons.min.css?ver=5.35.0' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='assets/css/frontend.min.css?ver=3.27.6' media='all' />
+    <link rel='stylesheet' id='elementor-post-10-css' href='assets/css/post-10.css?ver=1741414514' media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.2' media='all' />
+    <script src="assets/js/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script src="assets/js/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <meta name="generator" content="WordPress 6.7.2" />
+    <meta name="generator" content="Redux 4.5.6" />
+    <meta name="generator" content="Elementor 3.27.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <style>
+        .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+            background-image: none !important;
+        }
+
+        @media screen and (max-height: 1024px) {
+
+            .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+            .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+        }
+
+        @media screen and (max-height: 640px) {
+
+            .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+            .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+        }
+    </style>
+    <style id="wp-custom-css">
+        .global-color .setting-toggle {
+            border-radius: 5px;
+        }
+
+        .global-color .setting-toggle i {
+            animation: rotating 3s infinite linear;
+        }
+    </style>
+
+</head>
+
+<body class="home1-page">
+    <video class="body-overlay" muted autoplay loop>
+        <source src="assets/images/video1.mp4" type="video/mp4">
+    </video>
+    <div class="page-loader">
+        <div class="bounceball"></div>
+    </div>
+    <span class="icon-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+    <div class="global-color">
+        <span class="setting-toggle">
+            <i class="las la-cog"></i>
+        </span>
+        <div class="inner">
+            <div class="overlay"></div>
+            <div class="global-color-option">
+                <span class="close-settings">
+                    <i class="las la-times"></i>
+                </span>
+                <h3>Configuration</h3>
+                <div class="global-color-option-inner">
+                    <p>Colors</p>
+                    <div class="color-boxed">
+                        <a href="#" class="clr-active" onclick="color1();"></a>
+                        <a href="#" onclick="color2();"></a>
+                        <a href="#" onclick="color3();"></a>
+                        <a href="#" onclick="color4();"></a>
+                        <a href="#" onclick="color5();"></a>
+                        <a href="#" onclick="color6();"></a>
+                        <a href="#" onclick="color7();"></a>
+                        <a href="#" onclick="color8();"></a>
+                    </div>
+
+                    <p>THREE DIMENSIONAL SHAPES</p>
+                    <!-- <ul class="themes">
+                        <li><a href="https://wpriverthemes.com/drake/earth-lines-sphere/">Earth Lines Sphere</a></li>
+                        <li><a href="https://wpriverthemes.com/drake/3d-abstract-ball/">3D Abstract Ball</a></li>
+                        <li><a href="https://wpriverthemes.com/drake/water-waves/">Water Waves</a></li>
+                        <li><a href="https://wpriverthemes.com/drake/liquids-wavy/">Liquids Wavy</a></li>
+                        <li><a href="https://wpriverthemes.com/drake/">Solid Color</a></li>
+                        <li><a href="https://wpriverthemes.com/drake/simple-strings/">Simple Strings</a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive-sidebar-menu">
+        <!-- Close Icon -->
+        <span class="close-settings">
+            <i class="las la-times"></i>
+        </span>
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p>Menu</p>
+                <ul class="dmenu scroll-nav-responsive d-flex">
+                    <li>
+                        <a class="scroll-to" href="#home">
+                            <i class="las la-home"></i> <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#about">
+                            <i class="lar la-user"></i> <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#resume">
+                            <i class="las la-briefcase"></i> <span>Resume</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#services">
+                            <i class="las la-stream"></i> <span>Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#skills">
+                            <i class="las la-shapes"></i> <span>Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#portfolio">
+                            <i class="las la-grip-vertical"></i> <span>Portfolio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#testimonial">
+                            <i class="lar la-comment"></i> <span>Testimonial</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#contact">
+                            <i class="las la-envelope"></i> <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar-social">
+                <p>Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li>
+                        <a href="#"><i class="lab la-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="lab la-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="lab la-dribbble"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <ul class="dmenu scroll-nav d-flex">
+        <li>
+            <a class="scroll-to" href="#home">
+                <span>Home</span> <i class="las la-home"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#about">
+                <span>About</span> <i class="lar la-user"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#resume">
+                <span>Resume</span> <i class="las la-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#services">
+                <span>Services</span> <i class="las la-stream"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#skills">
+                <span>Skills</span> <i class="las la-shapes"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#portfolio">
+                <span>Portfolio</span> <i class="las la-grip-vertical"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#testimonial">
+                <span>Testimonial</span> <i class="lar la-comment"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#contact">
+                <span>Contact</span> <i class="las la-envelope"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="left-sidebar">
+        <div class="sidebar-header d-flex align-items-center justify-content-between">
+            <img src="assets/images/logo.png" alt="Logo">
+            <span class="designation">Frontented Developer</span>
+        </div>
+        <img class="me" src="assets/images/me.jpg" alt="ME">
+        <h3 class="email"><a href="mailto:manasajaz2001@gmail.com">manasajaz2001@gmail.com</a></h3>
+        <h3 class="address">Karachi, Pakistan</h3>
+        <p class="copyright">&copy; 2024 anas. All Rights Reserved</p>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li>
+
+
+                <a href="#"><i class="lab la-instagram"></i></a>
+
+
+            </li>
+            <li>
+
+                <a href="#"><i class="lab la-twitter"></i></a>
+            </li>
+            <li>
+
+                <a href="#"><i class="lab la-dribbble"></i></a>
+            </li>
+            <li>
+
+                <a href="#"><i class="lab la-github"></i></a>
+            </li>
+        </ul>
+        <a href="#contact" class="theme-btn">
+            <i class="las la-envelope"></i> Hire Me! </a>
+    </div>
+
+    <main class="drake-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <div class="left-sidebar">
+                    <div class="sidebar-header d-flex align-items-center justify-content-between">
+                        <img src="assets/images/logo.png" alt="Logo">
+                        <span class="designation">Frontend Developer</span>
+                    </div>
+                    <img class="me" src="assets/images/me.jpg" alt="ME">
+                    <h3 class="email"><a href="mailto:manasajaz2001@gmail.com">manasajaz2001@gmail.com</a></h3>
+                    <h3 class="address">Karachi, Pakistan</h3>
+                    <p class="copyright">&copy; 2022 anas. All Rights Reserved</p>
+                    <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+                        <li>
+                            <a href="#"><i class="lab la-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="lab la-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="lab la-dribbble"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="lab la-github"></i></a>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="theme-btn">
+                        <i class="las la-envelope"></i> Hire Me! </a>
+                </div>
+                <div data-elementor-type="wp-page" data-elementor-id="199" class="elementor elementor-199">
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-4008bb0 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="4008bb0" data-element_type="section" id="home">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-56d535e" data-id="56d535e" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-d8d1695 elementor-widget elementor-widget-drakehero" data-id="d8d1695" data-element_type="widget" data-widget_type="drakehero.default">
+                                        <div class="elementor-widget-container">
+
+                                            <section class="hero-section">
+
+                                                <div class="custom-container">
+                                                    <div class="hero-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-home"></i> Introduce
+                                                            </h4>
+                                                            <h1 class="scroll-animation" data-animation="fade_from_bottom">Say Hi from <span>Anas</span>, Frontend Developer</h1>
+                                                        </div>
+                                                        <p class="scroll-animation" data-animation="fade_from_bottom">I design and code beautifully simple things and i love what i do. Just simple like that!</p>
+
+                                                        <a href="#portfolio"
+                                                            class="go-to-project-btn scroll-to scroll-animation"
+                                                            data-animation="rotate_up">
+                                                            <img decoding="async" src="assets/images/round-text.png" alt="Round Text">
+                                                            <i class="las la-arrow-down"></i>
+                                                        </a>
+
+                                                        <div class="facts d-flex">
+
+                                                            <div class="left scroll-animation" data-animation="fade_from_left">
+                                                                <h2>2+</h2>
+                                                                <p>Years of <br>Experience</p>
+                                                            </div>
+
+
+                                                            <div class="right scroll-animation" data-animation="fade_from_right">
+                                                                <h2>22+</h2>
+                                                                <p>projects <br>completed</p>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-51b78d5 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="51b78d5" data-element_type="section" id="about">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0f928fc" data-id="0f928fc" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-089591c elementor-widget elementor-widget-drakeabout" data-id="089591c" data-element_type="widget" data-widget_type="drakeabout.default">
+                                        <div class="elementor-widget-container">
+
+                                            <section class="about-area">
+                                                <div class="custom-container">
+                                                    <div class="about-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="lar la-user"></i> About
+                                                            </h4>
+                                                            <h2 class="scroll-animation" data-animation="fade_from_bottom">Every great design begin with<br> an even <span>better story</span></h2>
+                                                        </div>
+                                                        <p class="scroll-animation" data-animation="fade_from_bottom">Since beginning my journey as a freelance Developer nearly 3 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-09e57b7 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="09e57b7" data-element_type="section" id="resume">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e656275" data-id="e656275" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-813d5c5 elementor-widget elementor-widget-drakeresume" data-id="813d5c5" data-element_type="widget" data-widget_type="drakeresume.default">
+                                        <div class="elementor-widget-container">
+                                            <section class="resume-area">
+                                                <div class="custom-container">
+                                                    <div class="resume-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-briefcase"></i> resume
+                                                            </h4>
+                                                            <h2 class="scroll-animation" data-animation="fade_from_bottom">Education & <span>Experience</span></h2>
+                                                        </div>
+
+                                                        <div class="resume-timeline">
+                                                            <div class="item scroll-animation" data-animation="fade_from_right">
+                                                                <span class="date">2023 - Present</span>
+                                                                <h3>Senior Executive Frontend Developer</h3>
+                                                                <p>Swyftcube</p>
+
+                                                                <h3>Frontend Developer</h3>
+                                                                <p>Swyftcube</p>
+
+
+
+                                                            </div>
+                                                            <div class="item scroll-animation" data-animation="fade_from_right">
+                                                                <span class="date">feb 2022 - sep 2022</span>
+                                                                <h3>Web Developer</h3>
+                                                                <p>Vertex Web Solution</p>
+
+                                                                <!-- <h3>Web Developer</h3>
+                                                                <p>Freelance</p>
+
+                                                                <h3>Leader Team of Marketing</h3>
+                                                                <p>AHA Marketing Agency</p> -->
+
+
+                                                            </div>
+                                                            <div class="item scroll-animation" data-animation="fade_from_right">
+                                                                <span class="date">2021 - 2025</span>
+                                                                <h3>Bachelor Degree of Software Engineering</h3>
+                                                                <p>SMIU University</p>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-e2fc89f elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="e2fc89f" data-element_type="section" id="services">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-043c284" data-id="043c284" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-cf421ee elementor-widget elementor-widget-drakeservices" data-id="cf421ee" data-element_type="widget" data-widget_type="drakeservices.default">
+                                        <div class="elementor-widget-container">
+
+                                            <section class="services-area">
+                                                <div class="custom-container">
+                                                    <div class="services-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-stream"></i> Services
+                                                            </h4>
+                                                            <h2 class="scroll-animation" data-animation="fade_from_bottom">My <span>Specializations</span></h2>
+                                                        </div>
+
+                                                        <div class="services-items">
+                                                            <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-bezier-curve"></i>
+                                                                <h3>Website Design</h3>
+                                                                <p>I created digital products with unique ideas use Figma & Framer</p>
+                                                                <span class="projects">8 Projects</span>
+                                                            </div>
+                                                            <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-code"></i>
+                                                                <h3>Development</h3>
+                                                                <p>I build website go live with different platform</p>
+                                                                <span class="projects">32 Projects</span>
+                                                            </div>
+                                                            <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-rocket"></i>
+                                                                <h3>Website Optimization</h3>
+                                                                <p>Increase the perfomance for your website</p>
+                                                                <span class="projects">26 Projects</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-a32fcf2 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="a32fcf2" data-element_type="section" id="skills">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0fa9229" data-id="0fa9229" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-319c9f1 elementor-widget elementor-widget-drakeskill" data-id="319c9f1" data-element_type="widget" data-widget_type="drakeskill.default">
+                                        <div class="elementor-widget-container">
+
+                                            <section class="skills-area">
+                                                <div class="custom-container">
+                                                    <div class="skills-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-shapes"></i> my skills
+                                                            </h4>
+                                                            <h2 class="scroll-animation" data-animation="fade_from_bottom">My <span>Advantages</span></h2>
+                                                        </div>
+                                                        <div class="row skills text-center">
+                                                            <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                                                <div class="skill">
+                                                                    <div class="skill-inner">
+                                                                        <img decoding="async" src="assets/images/figma.png" alt="">
+                                                                        <h2 class="percent">92%</h2>
+                                                                    </div>
+                                                                    <p class="name">Figma</p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                                                <div class="skill">
+                                                                    <div class="skill-inner">
+                                                                        <img decoding="async" src="assets/images/framer.png" alt="">
+                                                                        <h2 class="percent">85%</h2>
+                                                                    </div>
+                                                                    <p class="name">Framer</p>
+                                                                </div>
+                                                            </div> -->
+                                                            <!-- <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                                                <div class="skill">
+                                                                    <div class="skill-inner">
+                                                                        <img decoding="async" src="assets/images/webflow.png" alt="">
+                                                                        <h2 class="percent">80%</h2>
+                                                                    </div>
+                                                                    <p class="name">Webflow</p>
+                                                                </div>
+                                                            </div> -->
+                                                            <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                                                <div class="skill">
+                                                                    <div class="skill-inner">
+                                                                        <img decoding="async" src="assets/images/react.png" alt="">
+                                                                        <h2 class="percent">90%</h2>
+                                                                    </div>
+                                                                    <p class="name">React</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                                                <div class="skill">
+                                                                    <div class="skill-inner">
+                                                                        <img decoding="async" src="assets/images/wordpress.png" alt="">
+                                                                        <h2 class="percent">66%</h2>
+                                                                    </div>
+                                                                    <p class="name">WordPress</p>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                                                <div class="skill">
+                                                                    <div class="skill-inner">
+                                                                        <img decoding="async" src="assets/images/laravel.png" alt="">
+                                                                        <h2 class="percent">70%</h2>
+                                                                    </div>
+                                                                    <p class="name">Laravel/PHP</p>
+                                                                </div>
+                                                            </div> -->
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-2090be3 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="2090be3" data-element_type="section" id="portfolio">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-77d49c0" data-id="77d49c0" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-ab189bd elementor-widget elementor-widget-drakeportfolio" data-id="ab189bd" data-element_type="widget" data-widget_type="drakeportfolio.default">
+                                        <div class="elementor-widget-container">
+
+                                            <section class="portfolio-area">
+                                                <div class="custom-container">
+                                                    <div class="portfolio-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-grip-vertical"></i> portfolio
+                                                            </h4>
+                                                            <h2 class="scroll-animation" data-animation="fade_from_bottom">Featured <span>Projects</span></h2>
+                                                        </div>
+
+                                                        <div class="row portfolio-items">
+
+                                                            <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                                                <div class="portfolio-item portfolio-full">
+                                                                    <div class="portfolio-item-inner">
+                                                                        <a href="assets/images/portfolio1.jpg" data-lightbox="example-1">
+                                                                            <img decoding="async" src="assets/images/portfolio1.jpg" alt="">
+                                                                        </a>
+
+                                                                        <ul class="portfolio-categories">
+                                                                            <li>
+                                                                                <a>Figma</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a>Framer</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a>WordPress</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <h3><a target="_blank" href="#">Bureau - Architecture Studio Website</a></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                                                <div class="portfolio-item portfolio-full">
+                                                                    <div class="portfolio-item-inner">
+                                                                        <a href="assets/images/portfolio2.jpg" data-lightbox="example-1">
+                                                                            <img decoding="async" src="assets/images/portfolio2.jpg" alt="">
+                                                                        </a>
+
+                                                                        <ul class="portfolio-categories">
+                                                                            <li>
+                                                                                <a>WordPress</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a>Larevel/PHP</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <h3><a target="_blank" href="#">Moonex WordPress Theme</a></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                                                <div class="portfolio-item portfolio-full">
+                                                                    <div class="portfolio-item-inner">
+                                                                        <a href="assets/images/portfolio3.jpg" data-lightbox="example-1">
+                                                                            <img decoding="async" src="assets/images/portfolio3.jpg" alt="">
+                                                                        </a>
+
+                                                                        <ul class="portfolio-categories">
+                                                                            <li>
+                                                                                <a>WordPress</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a>Larevel/PHP</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <h3><a target="_blank" href="#">Taskly Dashboard</a></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                                                <div class="portfolio-item portfolio-full">
+                                                                    <div class="portfolio-item-inner">
+                                                                        <a href="assets/images/portfolio4.jpg" data-lightbox="example-1">
+                                                                            <img decoding="async" src="assets/images/portfolio4.jpg" alt="">
+                                                                        </a>
+
+                                                                        <ul class="portfolio-categories">
+                                                                            <li>
+                                                                                <a>Figma</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a>React</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <h3><a target="_blank" href="#">Hinterland - Real Estate Site Redesign</a></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                                                <div class="portfolio-item portfolio-full">
+                                                                    <div class="portfolio-item-inner">
+                                                                        <a href="assets/images/portfolio5.jpg" data-lightbox="example-1">
+                                                                            <img decoding="async" src="assets/images/portfolio5.jpg" alt="">
+                                                                        </a>
+
+                                                                        <ul class="portfolio-categories">
+                                                                            <li>
+                                                                                <a>Framer</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <h3><a target="_blank" href="#">Lewis Portfolio Framer Template</a></h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-449627b elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="449627b" data-element_type="section" id="testimonial">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-78a9b04" data-id="78a9b04" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-09ec53b elementor-widget elementor-widget-draketestimonial" data-id="09ec53b" data-element_type="widget" data-widget_type="draketestimonial.default">
+                                        <div class="elementor-widget-container">
+
+                                            <section class="testimonial-area">
+                                                <div class="custom-container">
+                                                    <div class="testimonial-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="lar la-comment"></i> testimonial
+                                                            </h4>
+                                                            <h2 class="scroll-animation" data-animation="fade_from_bottom">Trusted by <span>Hundered Clients</span></h2>
+                                                        </div>
+
+                                                        <div class="testimonial-slider-wrap scroll-animation" data-animation="fade_from_bottom">
+                                                            <div class="owl-carousel testimonial-slider owl-theme">
+                                                                <div class="testimonial-item">
+                                                                    <div class="testimonial-item-inner">
+                                                                        <div class="author d-flex align-items-center">
+                                                                            <img decoding="async" src="assets/images/testimonial-1.jpg" alt="">
+                                                                            <div class="right">
+                                                                                <h3>Paublo Dybala</h3>
+                                                                                <!-- <p class="designation">CEO of <span>IBM Global</span></p> -->
+                                                                            </div>
+                                                                        </div>
+                                                                        <p>“Anas - A Developer with the creativity, professional and
+                                                                            master of code. Much more than what i'm expect.
+                                                                            High quality product & flexiable price. Recommended!.”</p>
+
+                                                                        <a href="#" class="project-btn">Project</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-item">
+                                                                    <div class="testimonial-item-inner">
+                                                                        <div class="author d-flex align-items-center">
+                                                                            <img decoding="async" src="assets/images/testimonial-2.jpg" alt="">
+                                                                            <div class="right">
+                                                                                <h3>Christina Morillo</h3>
+                                                                                <p class="designation">Product Management of <span>Invision App Inc</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <p>“Anas was a real pleasure to work with and we look
+                                                                            forward to working with him again. He's definitely the kind of
+                                                                            Developer that you can trust with any project from A-Z.”</p>
+
+                                                                        <a href="#" class="project-btn">Project</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="testimonial-item">
+                                                                    <div class="testimonial-item-inner">
+                                                                        <div class="author d-flex align-items-center">
+                                                                            <img decoding="async" src="assets/images/testimonial-3.jpg" alt="">
+                                                                            <div class="right">
+                                                                                <h3>Phil Foden</h3>
+                                                                                <!-- <p class="designation">Director of <span>Envato LLC</span></p> -->
+                                                                            </div>
+                                                                        </div>
+                                                                        <p>“Extremely profressional and fast service!. Anas is a master
+                                                                            of code and he also very creative. We done 3 projects with
+                                                                            him and certain will continue.”</p>
+
+                                                                        <a href="#" class="project-btn">Project</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-footer-nav">
+                                                                <div class="testimonial-nav d-flex align-items-center">
+                                                                    <button class="prev"><i class="las la-angle-left"></i></button>
+                                                                    <div id="testimonial-slide-count"></div>
+                                                                    <button class="next"><i class="las la-angle-right"></i></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="clients-logos">
+                                                            <h4 class="scroll-animation" data-animation="fade_from_bottom">work with 10+ brands worldwide</h4>
+                                                            <div class="row align-items-center">
+                                                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                                                    <img decoding="async" src="assets/images/client-1.png" alt="">
+                                                                </div>
+                                                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                                                    <img decoding="async" src="assets/images/client-2.png" alt="">
+                                                                </div>
+                                                                <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                                                    <img decoding="async" src="assets/images/client-3.png" alt="">
+                                                                </div>
+                                                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                                                    <img decoding="async" src="assets/images/client-4.png" alt="">
+                                                                </div>
+                                                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                                                    <img decoding="async" src="assets/images/client-5.png" alt="">
+                                                                </div>
+                                                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                                                    <img decoding="async" src="assets/images/client-6.png" alt="">
+                                                                </div>
+                                                                <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                                                    <img decoding="async" src="assets/images/client-7.png" alt="">
+                                                                </div>
+                                                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                                                    <img decoding="async" src="assets/images/client-8.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-74f9fe7 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="74f9fe7" data-element_type="section" id="pricing">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b698af7" data-id="b698af7" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-687345c elementor-widget elementor-widget-drakepricing" data-id="687345c" data-element_type="widget" data-widget_type="drakepricing.default">
+                                        <div class="elementor-widget-container">
+
+                                            <section class="pricing-area">
+                                                <div class="custom-container">
+                                                    <div class="pricing-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-dollar-sign"></i> pricing
+                                                            </h4>
+                                                            <h2 class="scroll-animation" data-animation="fade_from_bottom">My <span>Pricing</span></h2>
+                                                        </div>
+
+                                                        <div class="pricing-table-items">
+                                                            <div class="row">
+                                                                <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                                                    <div class="pricing-table">
+                                                                        <div class="pricing-table-header">
+                                                                            <div class="top d-flex justify-content-between align-items-start">
+                                                                                <h4>basic</h4>
+                                                                                <p class="text-right">Basic Landing Page 1 Page in Front-end+ Up to 6-7 sections+ Responsive Design</p>
+                                                                            </div>
+                                                                            <!-- <h2>$5 <span>/ hours</span></h2> -->
+                                                                            <h2>BASIC LANDING PAGE</h2>
+                                                                        </div>
+                                                                        <ul class="feature-lists">
+                                                                            <li>
+                                                                                2-day delivery
+                                                                            </li>
+                                                                            <li>
+                                                                                3 Revisions
+                                                                            </li>
+                                                                            <li>
+                                                                                Functional website
+                                                                            </li>
+                                                                            <li>
+                                                                                1 page
+                                                                            </li>
+                                                                            <li>
+                                                                                Content upload
+                                                                            </li>
+                                                                          
+                                                                            <li>
+                                                                                Social media icons
+                                                                            </li>
+                                                                        </ul>
+                                                                        <a target="_blank" href="#contact" class="theme-btn">pick this package</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                                                    <div class="pricing-table">
+                                                                        <div class="pricing-table-header">
+                                                                            <div class="top d-flex justify-content-between align-items-start">
+                                                                                <h4>premium</h4>
+                                                                                <p class="text-right">I will convert your provided PSD, XD, PNG design or idea to responsive html, CSS, Bootstrap</p>
+                                                                            </div>
+                                                                            <h2>CONVERT A STANDARD PAGE</h2>
+                                                                        </div>
+                                                                        <ul class="feature-lists">
+                                                                            <li>
+                                                                                3-day delivery
+                                                                            </li>
+                                                                            <li>
+                                                                                Unlimited Revisions
+                                                                            </li>
+                                                                            <li>
+                                                                                Functional website
+                                                                            </li>
+                                                                            <li>
+                                                                                4-7 page
+                                                                            </li>
+                                                                            <li>
+                                                                                Content upload
+                                                                            </li>
+                                                                            <li>
+                                                                                Speed optimization
+                                                                            </li>
+                                                                            <li>
+                                                                                Social media icons
+                                                                            </li>
+                                                                        </ul>
+                                                                        <a target="_blank" href="#contact" class="theme-btn">pick this package</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p class="info scroll-animation" data-animation="fade_from_bottom">
+                                                                Don't find any package match with your plan!<br> Want to setup a new tailor-made package for only you?. <a target="_blank" href="#contact">Contact Us</a>
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-ad41ad6 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="ad41ad6" data-element_type="section" id="contact">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a93c64b" data-id="a93c64b" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-60dfddb elementor-widget elementor-widget-drakecontact" data-id="60dfddb" data-element_type="widget" data-widget_type="drakecontact.default">
+                                        <div class="elementor-widget-container">
+
+                                            <section class="contact-area">
+                                                <div class="custom-container">
+                                                    <div class="contact-content content-width">
+                                                        <div class="section-header">
+                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                                <i class="las la-envelope"></i> contact
+                                                            </h4>
+                                                            <h2 class="scroll-animation" data-animation="fade_from_bottom">Let's Work <span>Together!</span></h2>
+                                                        </div>
+                                                        <h3 class="scroll-animation" data-animation="fade_from_bottom">hello@drake.design</h3>
+                                                        <p id="required-msg">* Marked fields are required to fill.</p>
+
+
+                                                        <div class="wpcf7 no-js" id="wpcf7-f172-p199-o1" lang="en-US" dir="ltr" data-wpcf7-id="172">
+                                                            <div class="screen-reader-response">
+                                                                <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                                                <ul></ul>
+                                                            </div>
+                                                            <form action="/drake/earth-lines-sphere/#wpcf7-f172-p199-o1" method="post" class="wpcf7-form init" aria-label="Contact form" enctype="multipart/form-data" novalidate="novalidate" data-status="init">
+                                                                <div style="display: none;">
+                                                                    <input type="hidden" name="_wpcf7" value="172" />
+                                                                    <input type="hidden" name="_wpcf7_version" value="6.0.4" />
+                                                                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f172-p199-o1" />
+                                                                    <input type="hidden" name="_wpcf7_container_post" value="199" />
+                                                                    <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                                                                </div>
+                                                                <div class="alert alert-success messenger-box-contact__msg" style="display: none" role="alert">
+                                                                    <p>Your message was sent successfully.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <div class="input-group">
+                                                                            <p><label for="full-name">full Name <sup>*</sup></label><span class="wpcf7-form-control-wrap" data-name="full-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-group" id="full-name" aria-required="true" aria-invalid="false" placeholder="Your Full Name" value="" type="text" name="full-name" /></span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="input-group">
+                                                                            <p><label for="email">Email <sup>*</sup></label><span class="wpcf7-form-control-wrap" data-name="email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email input-group" aria-required="true" aria-invalid="false" placeholder="Your email adress" value="" type="email" name="email" /></span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="input-group">
+                                                                            <p><label for="phone-number">phone <span>(optional)</span></label><span class="wpcf7-form-control-wrap" data-name="phone"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number input-group" aria-invalid="false" placeholder="Your number phone" value="" type="number" name="phone" /></span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="input-group">
+                                                                            <p><label for="subject">subject <sup>*</sup></label><span class="wpcf7-form-control-wrap" data-name="subject"><select class="wpcf7-form-control wpcf7-select input-group" id="subject" aria-invalid="false" name="subject">
+                                                                                        <option value="Subject 1">Subject 1</option>
+                                                                                        <option value="Subject 2">Subject 2</option>
+                                                                                        <option value="Subject 3">Subject 3</option>
+                                                                                    </select></span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="col-md-12">
+                                                                        <div class="input-group">
+                                                                            <p><label for="message">message</label><span class="wpcf7-form-control-wrap" data-name="message"><textarea cols="40" rows="2" maxlength="2000" class="wpcf7-form-control wpcf7-textarea input-group" id="message" aria-invalid="false" placeholder="Write your message here ..." name="message"></textarea></span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-12">
+                                                                        <div class="input-group upload-attachment">
+                                                                            <div>
+                                                                                <p><label for="upload-attachment"><i class="las la-cloud-upload-alt"></i> add an attachment<span class="wpcf7-form-control-wrap" data-name="file"><input size="40" class="wpcf7-form-control wpcf7-file input-group upload-attachment" id="upload-attachment" accept="audio/*,video/*,image/*" aria-invalid="false" type="file" name="file" /></span></label>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-12">
+                                                                        <div class="input-group submit-btn-wrap">
+                                                                            <p><button class="theme-btn" type="submit" name="submit" id="submit">send message</button>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                                            </form>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <script>
+        const lazyloadRunObserver = () => {
+            const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+            const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        let lazyloadBackground = entry.target;
+                        if (lazyloadBackground) {
+                            lazyloadBackground.classList.add('e-lazyloaded');
+                        }
+                        lazyloadBackgroundObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '200px 0px 200px 0px'
+            });
+            lazyloadBackgrounds.forEach((lazyloadBackground) => {
+                lazyloadBackgroundObserver.observe(lazyloadBackground);
+            });
+        };
+        const events = [
+            'DOMContentLoaded',
+            'elementor/lazyload/observe',
+        ];
+        events.forEach((event) => {
+            document.addEventListener(event, lazyloadRunObserver);
+        });
+    </script>
+    <script src="assets/js/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+    <script src="assets/js/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+    <script id="wp-i18n-js-after">
+        wp.i18n.setLocaleData({
+            'text direction\u0004ltr': ['ltr']
+        });
+    </script>
+    <script src="assets/js/index.js?ver=6.0.4" id="swv-js"></script>
+
+    <script src="assets/js/index.js?ver=6.0.4" id="contact-form-7-js"></script>
+    <script src="assets/js/jquery.js?ver=6.7.2" id="drake-jquery-js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js?ver=6.7.2" id="bootstrap-bundle-js"></script>
+    <script src="assets/js/owl.carousel.js?ver=6.7.2" id="owl-carousel-js"></script>
+    <script src="assets/js/gsap.min.js?ver=6.7.2" id="gsap-js"></script>
+    <script src="assets/js/ScrollTrigger.min.js?ver=6.7.2" id="ScrollTrigger-js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js?ver=6.7.2" id="ScrollToPlugin-js"></script>
+    <script src="assets/js/lightbox.min.js?ver=6.7.2" id="lightbox-js"></script>
+    <script src="assets/js/main.js?ver=6.7.2" id="drake-main-js"></script>
+    <script src="assets/js/ajax-form.js?ver=6.7.2" id="ajax-form-js"></script>
+    <script src="assets/js/color.js?ver=6.7.2" id="drake-color-js"></script>
+    <script src="assets/js/webpack.runtime.min.js?ver=3.27.6" id="elementor-webpack-runtime-js"></script>
+    <script src="assets/js/frontend-modules.min.js?ver=3.27.6" id="elementor-frontend-modules-js"></script>
+    <script src="assets/js/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+    <script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close",
+                "a11yCarouselPrevSlideMessage": "Previous slide",
+                "a11yCarouselNextSlideMessage": "Next slide",
+                "a11yCarouselFirstSlideMessage": "This is the first slide",
+                "a11yCarouselLastSlideMessage": "This is the last slide",
+                "a11yCarouselPaginationBulletMessage": "Go to slide"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile Portrait",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Landscape",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet Portrait",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Landscape",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                },
+                "hasCustomBreakpoints": false
+            },
+            "version": "3.27.6",
+            "is_static": false,
+            "experimentalFeatures": {
+                "additional_custom_breakpoints": true,
+                "e_swiper_latest": true,
+                "e_onboarding": true,
+                "home_screen": true,
+                "landing-pages": true,
+                "editor_v2": true,
+                "link-in-bio": true,
+                "floating-buttons": true
+            },
+            "urls": {
+                "assets": "https:\/\/wpriverthemes.com\/drake\/wp-content\/plugins\/elementor\/assets\/",
+                "ajaxurl": "https:\/\/wpriverthemes.com\/drake\/wp-admin\/admin-ajax.php",
+                "uploadUrl": "https:\/\/wpriverthemes.com\/drake\/wp-content\/uploads"
+            },
+            "nonces": {
+                "floatingButtonsClickTracking": "f0935aed4a"
+            },
+            "swiperClass": "swiper",
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 199,
+                "title": "Earth%20Lines%20Sphere%20%E2%80%93%20Drake",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script src="assets/js/frontend.min.js?ver=3.27.6" id="elementor-frontend-js"></script>
+
+
+
+</body>
+
+</html>
