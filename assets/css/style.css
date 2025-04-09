@@ -1247,7 +1247,7 @@ body .body-overlay {
     margin: 0;
 }
 .pricing-table-items .pricing-table .pricing-table-header h2 {
-    font-size: 48px;
+    /* font-size: 48px; */
     color: var(--primary_color);
     font-weight: 300;
     margin: 0;
