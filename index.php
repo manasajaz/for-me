@@ -644,7 +644,7 @@
             </li>
         </ul>
         <a href="#contact" class="theme-btn">
-            <i class="las la-envelope"></i> Hire Me! </a>
+            <i class="las la-envelope"></i>nono </a>
     </div>
 
     <main class="drake-main">
@@ -675,7 +675,7 @@
                         </li>
                     </ul>
                     <a href="#contact" class="theme-btn">
-                        <i class="las la-envelope"></i> Hire Me! </a>
+                        <i class="las la-envelope"></i>nono </a>
                 </div>
                 <div data-elementor-type="wp-page" data-elementor-id="199" class="elementor elementor-199">
                     <section class="elementor-section elementor-top-section elementor-element elementor-element-4008bb0 elementor-section-full_width page-section scroll-to-page elementor-section-height-default elementor-section-height-default" data-id="4008bb0" data-element_type="section" id="home">
