@@ -1579,6 +1579,76 @@
         };
     </script>
     <script src="assets/js/frontend.min.js?ver=3.27.6" id="elementor-frontend-js"></script>
+     <script>
+        // Function to set responsive width and height attributes for images with lazy loading and auto-filled alt text
+        function setResponsiveImgAttributes(img) {
+            var imageUrl = img.getAttribute("src");
+            var dataSrc = img.getAttribute("data-src"); // Assuming data-src attribute contains the actual image URL
+
+            var tempImg = new Image();
+            tempImg.src = imageUrl || dataSrc;
+
+            tempImg.onload = function() {
+                var imgWidth = tempImg.width;
+                var imgHeight = tempImg.height;
+
+                img.width = imgWidth;
+                img.height = imgHeight;
+
+                var fileName = imageUrl.split("/").pop().split(".")[0]; // Extract file name without extension
+                img.alt = fileName; // Set alt attribute with the file name
+            };
+
+            tempImg.onerror = function() {
+                console.error("Error loading image: " + (imageUrl || dataSrc));
+            };
+
+            img.loading = "eager"; // Set loading attribute to eager (can use 'lazy' if preferred)
+        }
+
+        // Get all img elements on the page
+        var imgElements = document.getElementsByTagName("img");
+
+        // Loop through all img elements and set responsive attributes with lazy loading and auto-filled alt text
+        for (let i = 0; i < imgElements.length; i++) {
+            setResponsiveImgAttributes(imgElements[i]);
+        }
+
+        window.addEventListener("DOMContentLoaded", (event) => {
+            // Select all <a> and <button> elements on the page
+            const anchors = document.querySelectorAll("a");
+            const buttons = document.querySelectorAll("button");
+
+            // Function to set aria-label for <a> elements
+            anchors.forEach((a) => {
+                // Check if aria-label is missing
+                if (!a.hasAttribute("aria-label")) {
+                    // If the anchor has text content, use that as aria-label
+                    if (a.textContent.trim() !== "") {
+                        a.setAttribute("aria-label", a.textContent.trim());
+                    } else {
+                        // If the anchor has no text, you can use the href value as aria-label or fallback to a default label
+                        const hrefValue = a.getAttribute("href") || "Link";
+                        a.setAttribute("aria-label", `Link to ${hrefValue}`);
+                    }
+                }
+            });
+
+            // Function to set aria-label for <button> elements
+            buttons.forEach((button) => {
+                // Check if aria-label is missing
+                if (!button.hasAttribute("aria-label")) {
+                    // If the button has text content, use that as aria-label
+                    if (button.textContent.trim() !== "") {
+                        button.setAttribute("aria-label", button.textContent.trim());
+                    } else {
+                        // Fallback if the button has no text content
+                        button.setAttribute("aria-label", "Button");
+                    }
+                }
+            });
+        });
+    </script>
 
 
 
