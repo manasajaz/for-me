@@ -24,6 +24,7 @@
     .left-sidebar {
         max-width: 350px;
         padding: 30px;
+         height: 100vh;
     }
     .left-sidebar > img.me {
         width: 100%;
