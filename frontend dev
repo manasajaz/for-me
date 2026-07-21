@@ -656,9 +656,9 @@
                                                 <div class="custom-container">
                                                     <div class="hero-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="las la-home"></i> Introduce
-                                                            </h4>
+                                                            </p>
                                                             <h1 class="scroll-animation text-uppercase" data-animation="fade_from_bottom">Say Hi from <span>Anas</span>, Frontend Developer</h1>
                                                         </div>
                                                         <p class="scroll-animation" data-animation="fade_from_bottom">I design and code beautifully simple things and i love what i do. Just simple like that!</p>
@@ -705,9 +705,9 @@
                                                 <div class="custom-container">
                                                     <div class="about-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="lar la-user"></i> About
-                                                            </h4>
+                                                            </p>
                                                             <h2 class="scroll-animation text-capitalize" data-animation="fade_from_bottom">Every great design begin with<br> an even <span>better story</span></h2>
                                                         </div>
                                                         <p class="scroll-animation" data-animation="fade_from_bottom">Since beginning my journey as a freelance Developer nearly 3 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
@@ -731,9 +731,9 @@
                                                 <div class="custom-container">
                                                     <div class="resume-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="las la-briefcase"></i> resume
-                                                            </h4>
+                                                            </p>
                                                             <h2 class="scroll-animation" data-animation="fade_from_bottom">Education & <span>Experience</span></h2>
                                                         </div>
 
@@ -795,9 +795,9 @@
                                                 <div class="custom-container">
                                                     <div class="services-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="las la-stream"></i> Services
-                                                            </h4>
+                                                            </p>
                                                             <h2 class="scroll-animation" data-animation="fade_from_bottom">My <span>Specializations</span></h2>
                                                         </div>
 
@@ -843,9 +843,9 @@
                                                 <div class="custom-container">
                                                     <div class="skills-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="las la-shapes"></i> my skills
-                                                            </h4>
+                                                            </p>
                                                             <h2 class="scroll-animation" data-animation="fade_from_bottom">My <span>Expertise</span></h2>
                                                         </div>
                                                         <div class="row skills text-center">
@@ -926,9 +926,9 @@
                                                 <div class="custom-container">
                                                     <div class="portfolio-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="las la-grip-vertical"></i> portfolio
-                                                            </h4>
+                                                            </p>
                                                             <h2 class="scroll-animation" data-animation="fade_from_bottom">Featured <span>Projects</span></h2>
                                                         </div>
 
@@ -1046,9 +1046,9 @@
                                                 <div class="custom-container">
                                                     <div class="testimonial-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="lar la-comment"></i> testimonial
-                                                            </h4>
+                                                            </p>
                                                             <h2 class="scroll-animation text-capitalize" data-animation="fade_from_bottom">Trusted by <span>Hundered Clients</span></h2>
                                                         </div>
 
@@ -1163,9 +1163,9 @@
                                                 <div class="custom-container">
                                                     <div class="pricing-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="las la-dollar-sign"></i> pricing
-                                                            </h4>
+                                                            </p>
                                                             <h2 class="scroll-animation" data-animation="fade_from_bottom">My <span>Pricing</span></h2>
                                                         </div>
 
@@ -1267,9 +1267,9 @@
                                                 <div class="custom-container">
                                                     <div class="contact-content content-width">
                                                         <div class="section-header">
-                                                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                                            <p class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                                                 <i class="las la-envelope"></i> contact
-                                                            </h4>
+                                                            </p>
                                                             <h2 class="scroll-animation" data-animation="fade_from_bottom">Let's Work <span>Together!</span></h2>
                                                         </div>
                                                         <h3 class="scroll-animation" data-animation="fade_from_bottom"><a href="mailto:manasajaz2001@gmail.com">manasajaz2001@gmail.com</a></h3>
